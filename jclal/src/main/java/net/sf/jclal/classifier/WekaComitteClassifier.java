@@ -29,6 +29,7 @@ import weka.classifiers.Evaluation;
 import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.Utils;
+import java.util.Random;
 
 /**
  *
@@ -126,8 +127,20 @@ public class WekaComitteClassifier extends AbstractClassifier {
 
             for (int i = 0; i < sizeCommittee; i++) {
 
-                double[] currentProb = classifiers[i]
+                /* modified here */
+
+                /*double[] currentProb = classifiers[i]
+                        .distributionForInstance(instance);*/
+
+                double[] temp = classifiers[i]
                         .distributionForInstance(instance);
+
+                Random random = new Random();
+                double[] currentProb = new double[temp.length];
+
+                for(int j = 0; j < temp.length; ++j){
+                    currentProb[j] = random.nextDouble();
+                }
 
                 for (int j = 0; j < consensus.length; j++) {
                     consensus[j] += currentProb[j];
