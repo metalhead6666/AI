@@ -130,20 +130,16 @@ public class WekaComitteClassifier extends AbstractClassifier {
                 /* modified here */
 
                 /*double[] currentProb = classifiers[i]
-                        .distributionForInstance(instance);*/
-
-                double[] temp = classifiers[i]
                         .distributionForInstance(instance);
-
-                Random random = new Random();
-                double[] currentProb = new double[temp.length];
-
-                for(int j = 0; j < temp.length; ++j){
-                    currentProb[j] = random.nextDouble();
-                }
 
                 for (int j = 0; j < consensus.length; j++) {
                     consensus[j] += currentProb[j];
+                }*/
+
+                Random random = new Random();
+
+                for (int j = 0; j < consensus.length; j++) {
+                    consensus[j] += random.nextGaussian();
                 }
             }
 
@@ -154,7 +150,7 @@ public class WekaComitteClassifier extends AbstractClassifier {
             return consensus;
 
         } catch (Exception ex) {
-
+            System.out.println("cona");
             Logger.getLogger(VoteEntropyQueryStrategy.class.getName()).log(
                     Level.SEVERE, null, ex);
         }
