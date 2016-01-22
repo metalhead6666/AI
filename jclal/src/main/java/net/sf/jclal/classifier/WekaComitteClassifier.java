@@ -139,7 +139,7 @@ public class WekaComitteClassifier extends AbstractClassifier {
                 Random random = new Random();
 
                 for (int j = 0; j < consensus.length; j++) {
-                    consensus[j] += random.nextGaussian();
+                    consensus[j] = random.nextGaussian();
                 }
             }
 
@@ -150,7 +150,6 @@ public class WekaComitteClassifier extends AbstractClassifier {
             return consensus;
 
         } catch (Exception ex) {
-            System.out.println("cona");
             Logger.getLogger(VoteEntropyQueryStrategy.class.getName()).log(
                     Level.SEVERE, null, ex);
         }
