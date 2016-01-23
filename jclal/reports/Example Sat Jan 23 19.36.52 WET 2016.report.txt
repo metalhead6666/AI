@@ -1,0 +1,175 @@
+Sat Jan 23 19.36.52 WET 2016
+Dataset: trains
+Test set size: 4
+Initial Labelled set size: 0
+Initial Unlabelled set size: 6
+Batch mode: QBestBatchMode
+Batch size: 1
+Classifiers: NaiveBayes
+Scenario: PoolBasedSamplingScenario
+Query strategy: DensityDiversityQueryStrategy
+Time begining: Sat Jan 23 19.36.52 WET 2016
+		
+Iteration: 1
+Labeled set size: 0
+Unlabelled set size: 6
+	
+Mean region size: 100.0
+Incorrectly Classified Instances: 75.0
+Correctly Classified Instances: 25.0
+Weighted Precision: 0.0625
+Weighted AreaUnderROC: 0.5
+Root mean squared error: 0.5
+Relative absolute error: 100.0
+Root relative squared error: 100.0
+Weighted TruePositiveRate: 0.25
+Weighted MatthewsCorrelation: 0.0
+Weighted FMeasure: 0.1
+Iteration time: 26.0
+Weighted AreaUnderPRC: 0.625
+Mean absolute error: 0.5
+Coverage of cases: 100.0
+Instances selection time: 3.0
+Test time: 19.0
+Accumulative iteration time: 26.0
+Weighted Recall: 0.25
+Weighted FalsePositiveRate: 0.25
+Kappa statistic: 0.0
+Training time: 23.0
+		
+Iteration: 2
+Labeled set size: 1
+Unlabelled set size: 5
+	
+Mean region size: 100.0
+Incorrectly Classified Instances: 50.0
+Correctly Classified Instances: 50.0
+Weighted Precision: 0.8333333333333334
+Weighted AreaUnderROC: 1.0
+Root mean squared error: 0.5140286512368084
+Relative absolute error: 94.21405628429198
+Root relative squared error: 102.80573024736168
+Weighted TruePositiveRate: 0.5
+Weighted MatthewsCorrelation: 0.3333333333333333
+Weighted FMeasure: 0.5
+Iteration time: 1.0
+Weighted AreaUnderPRC: 1.0
+Mean absolute error: 0.4710702814214599
+Coverage of cases: 100.0
+Instances selection time: 0.0
+Test time: 2.0
+Accumulative iteration time: 27.0
+Weighted Recall: 0.5
+Weighted FalsePositiveRate: 0.16666666666666666
+Kappa statistic: 0.2
+Training time: 1.0
+		
+Iteration: 3
+Labeled set size: 2
+Unlabelled set size: 4
+	
+Mean region size: 100.0
+Incorrectly Classified Instances: 25.0
+Correctly Classified Instances: 75.0
+Weighted Precision: 0.875
+Weighted AreaUnderROC: 1.0
+Root mean squared error: 0.26157752174853705
+Relative absolute error: 37.45459214350135
+Root relative squared error: 52.31550434970741
+Weighted TruePositiveRate: 0.75
+Weighted MatthewsCorrelation: 0.5773502691896258
+Weighted FMeasure: 0.7666666666666667
+Iteration time: 0.0
+Weighted AreaUnderPRC: 1.0
+Mean absolute error: 0.18727296071750676
+Coverage of cases: 100.0
+Instances selection time: 0.0
+Test time: 2.0
+Accumulative iteration time: 27.0
+Weighted Recall: 0.75
+Weighted FalsePositiveRate: 0.08333333333333333
+Kappa statistic: 0.5
+Training time: 0.0
+		
+Iteration: 4
+Labeled set size: 3
+Unlabelled set size: 3
+	
+Mean region size: 87.5
+Incorrectly Classified Instances: 25.0
+Correctly Classified Instances: 75.0
+Weighted Precision: 0.875
+Weighted AreaUnderROC: 1.0
+Root mean squared error: 0.35130718118379883
+Relative absolute error: 55.7880178602565
+Root relative squared error: 70.26143623675976
+Weighted TruePositiveRate: 0.75
+Weighted MatthewsCorrelation: 0.5773502691896258
+Weighted FMeasure: 0.7666666666666667
+Iteration time: 1.0
+Weighted AreaUnderPRC: 1.0
+Mean absolute error: 0.2789400893012825
+Coverage of cases: 100.0
+Instances selection time: 0.0
+Test time: 1.0
+Accumulative iteration time: 28.0
+Weighted Recall: 0.75
+Weighted FalsePositiveRate: 0.08333333333333333
+Kappa statistic: 0.5
+Training time: 1.0
+		
+Iteration: 5
+Labeled set size: 4
+Unlabelled set size: 2
+	
+Mean region size: 75.0
+Incorrectly Classified Instances: 25.0
+Correctly Classified Instances: 75.0
+Weighted Precision: 0.875
+Weighted AreaUnderROC: 0.6666666666666666
+Root mean squared error: 0.37745885618004804
+Relative absolute error: 55.92852710173084
+Root relative squared error: 75.49177123600961
+Weighted TruePositiveRate: 0.75
+Weighted MatthewsCorrelation: 0.5773502691896258
+Weighted FMeasure: 0.7666666666666667
+Iteration time: 0.0
+Weighted AreaUnderPRC: 0.8125
+Mean absolute error: 0.2796426355086542
+Coverage of cases: 100.0
+Instances selection time: 0.0
+Test time: 2.0
+Accumulative iteration time: 28.0
+Weighted Recall: 0.75
+Weighted FalsePositiveRate: 0.08333333333333333
+Kappa statistic: 0.5
+Training time: 0.0
+		
+Iteration: 6
+Labeled set size: 5
+Unlabelled set size: 1
+	
+Mean region size: 75.0
+Incorrectly Classified Instances: 25.0
+Correctly Classified Instances: 75.0
+Weighted Precision: 0.5625
+Weighted AreaUnderROC: 0.6666666666666666
+Root mean squared error: 0.4149531896544501
+Relative absolute error: 58.149462435138425
+Root relative squared error: 82.99063793089002
+Weighted TruePositiveRate: 0.75
+Weighted MatthewsCorrelation: 0.0
+Weighted FMeasure: 0.6428571428571428
+Iteration time: 1.0
+Weighted AreaUnderPRC: 0.8125
+Mean absolute error: 0.2907473121756921
+Coverage of cases: 100.0
+Instances selection time: 1.0
+Test time: 1.0
+Accumulative iteration time: 29.0
+Weighted Recall: 0.75
+Weighted FalsePositiveRate: 0.75
+Kappa statistic: 0.0
+Training time: 0.0
+		
+Time end:Sat Jan 23 19.36.52 WET 2016
