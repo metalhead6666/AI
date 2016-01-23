@@ -1,0 +1,12 @@
+Sat Jan 23 19.17.11 WET 2016
+Dataset: JapaneseVowels-test
+Test set size: 1934
+Initial Labelled set size: 375
+Initial Unlabelled set size: 3378
+Batch mode: QBestBatchMode
+Batch size: 1
+Classifiers: NaiveBayes
+Scenario: PoolBasedSamplingScenario
+Query strategy: DensityDiversityQueryStrategy
+Time begining: Sat Jan 23 19.17.11 WET 2016
+		
