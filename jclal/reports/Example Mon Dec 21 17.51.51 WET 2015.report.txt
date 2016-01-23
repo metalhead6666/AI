@@ -1,0 +1,67 @@
+Mon Dec 21 17.51.51 WET 2015
+Dataset: iris
+Test set size: 51
+Initial Labelled set size: 9
+Initial Unlabelled set size: 90
+Batch mode: QBestBatchMode
+Batch size: 1
+Classifiers: NaiveBayes-SMO
+Scenario: PoolBasedSamplingScenario
+Query strategy: VoteEntropyQueryStrategy
+Time begining: Mon Dec 21 17.51.51 WET 2015
+		
+Iteration: 1
+Labeled set size: 9
+Unlabelled set size: 90
+	
+Mean region size: 71.24183006535948
+Incorrectly Classified Instances: 70.58823529411765
+Correctly Classified Instances: 29.41176470588235
+Weighted Precision: 0.4122899159663866
+Weighted AreaUnderROC: 0.5228650670794633
+Root mean squared error: 0.5452240883944137
+Relative absolute error: 113.30786040017051
+Root relative squared error: 115.65949505098311
+Weighted TruePositiveRate: 0.29411764705882354
+Weighted MatthewsCorrelation: 0.022655021573625204
+Weighted FMeasure: 0.3133870433726962
+Iteration time: 14.0
+Weighted AreaUnderPRC: 0.3900028065890389
+Mean absolute error: 0.503590490667424
+Coverage of cases: 70.58823529411765
+Instances selection time: 4.0
+Test time: 4.0
+Accumulative iteration time: 14.0
+Weighted Recall: 0.29411764705882354
+Weighted FalsePositiveRate: 0.30069659442724456
+Kappa statistic: -0.019999999999999987
+Training time: 10.0
+		
+Iteration: 2
+Labeled set size: 10
+Unlabelled set size: 89
+	
+Mean region size: 73.85620915032678
+Incorrectly Classified Instances: 58.8235294117647
+Correctly Classified Instances: 41.1764705882353
+Weighted Precision: 0.4227941176470588
+Weighted AreaUnderROC: 0.5120936532507739
+Root mean squared error: 0.5343791812588636
+Relative absolute error: 111.00152948083526
+Root relative squared error: 113.35894283791737
+Weighted TruePositiveRate: 0.4117647058823529
+Weighted MatthewsCorrelation: 0.12319916159848748
+Weighted FMeasure: 0.4154158215010142
+Iteration time: 10.0
+Weighted AreaUnderPRC: 0.4000101098551919
+Mean absolute error: 0.49334013102593405
+Coverage of cases: 80.3921568627451
+Instances selection time: 1.0
+Test time: 2.0
+Accumulative iteration time: 24.0
+Weighted Recall: 0.4117647058823529
+Weighted FalsePositiveRate: 0.29005417956656343
+Kappa statistic: 0.11458333333333334
+Training time: 9.0
+		
+Time end:Mon Dec 21 17.51.51 WET 2015

@@ -136,7 +136,9 @@ public class WekaComitteClassifier extends AbstractClassifier {
                     consensus[j] += currentProb[j];
                 }*/
 
-                Random random = new Random();
+                //FIRST MODIFIED VERSION
+
+                /*Random random = new Random();
 
                 for (int j = 0; j < consensus.length; j++) {
                     double cenas = random.nextGaussian();
@@ -147,7 +149,23 @@ public class WekaComitteClassifier extends AbstractClassifier {
                         cenas = 1;
 
                     consensus[j] += cenas;
+                }*/
+
+                //SECOND MODIFIED VERSION
+
+                Random random = new Random();
+
+                for (int j = 0; j < consensus.length; j++) {
+                    double cenas = random.nextGaussian();
+
+                    if(cenas < 0)
+                        cenas = -0.48*cenas;
+                    else
+                        cenas = 0.48 + 0.48*cenas;
+
+                    consensus[j] += cenas;
                 }
+
             }
 
             for (int i = 0; i < consensus.length; i++) {

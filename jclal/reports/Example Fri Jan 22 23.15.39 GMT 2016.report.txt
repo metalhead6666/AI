@@ -1,0 +1,12 @@
+Fri Jan 22 23.15.39 GMT 2016
+Dataset: iris
+Test set size: 51
+Initial Labelled set size: 9
+Initial Unlabelled set size: 90
+Batch mode: QBestBatchMode
+Batch size: 1
+Classifiers: NaiveBayes-SMO
+Scenario: PoolBasedSamplingScenario
+Query strategy: VoteEntropyQueryStrategy
+Time begining: Fri Jan 22 23.15.39 GMT 2016
+		

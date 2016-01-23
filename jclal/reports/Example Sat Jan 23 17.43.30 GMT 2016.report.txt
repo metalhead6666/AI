@@ -1,0 +1,40 @@
+Sat Jan 23 17.43.30 GMT 2016
+Dataset: iris
+Test set size: 51
+Initial Labelled set size: 9
+Initial Unlabelled set size: 90
+Batch mode: QBestBatchMode
+Batch size: 1
+Classifiers: NaiveBayes-SMO
+Scenario: PoolBasedSamplingScenario
+Query strategy: VoteEntropyQueryStrategy
+Time begining: Sat Jan 23 17.43.30 GMT 2016
+		
+Iteration: 1
+Labeled set size: 9
+Unlabelled set size: 90
+	
+Mean region size: 77.77777777777777
+Incorrectly Classified Instances: 64.70588235294117
+Correctly Classified Instances: 35.294117647058826
+Weighted Precision: 0.3533366287691547
+Weighted AreaUnderROC: 0.510545665634675
+Root mean squared error: 0.518143944693427
+Relative absolute error: 105.23347627520747
+Root relative squared error: 109.91492907704094
+Weighted TruePositiveRate: 0.35294117647058826
+Weighted MatthewsCorrelation: 0.017392253318102048
+Weighted FMeasure: 0.3525501368638624
+Iteration time: 12.0
+Weighted AreaUnderPRC: 0.4040212557974043
+Mean absolute error: 0.4677043390009216
+Coverage of cases: 78.43137254901961
+Instances selection time: 2.0
+Test time: 1.0
+Accumulative iteration time: 12.0
+Weighted Recall: 0.35294117647058826
+Weighted FalsePositiveRate: 0.3348490712074303
+Kappa statistic: 0.0192307692307693
+Training time: 10.0
+		
+Time end:Sat Jan 23 17.43.31 GMT 2016

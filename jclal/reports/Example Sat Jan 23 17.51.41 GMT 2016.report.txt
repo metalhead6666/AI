@@ -1,0 +1,120 @@
+Sat Jan 23 17.51.41 GMT 2016
+Dataset: iris
+Test set size: 51
+Initial Labelled set size: 9
+Initial Unlabelled set size: 90
+Batch mode: QBestBatchMode
+Batch size: 1
+Classifiers: NaiveBayes-SMO
+Scenario: PoolBasedSamplingScenario
+Query strategy: VoteEntropyQueryStrategy
+Time begining: Sat Jan 23 17.51.41 GMT 2016
+		
+Iteration: 1
+Labeled set size: 9
+Unlabelled set size: 90
+	
+Mean region size: 56.209150326797385
+Incorrectly Classified Instances: 54.90196078431372
+Correctly Classified Instances: 45.09803921568628
+Weighted Precision: 0.45089800626132803
+Weighted AreaUnderROC: 0.538828689370485
+Root mean squared error: 0.6265754519589596
+Relative absolute error: 124.14982503235728
+Root relative squared error: 132.9167253015619
+Weighted TruePositiveRate: 0.45098039215686275
+Weighted MatthewsCorrelation: 0.17031212087401404
+Weighted FMeasure: 0.4454773984185749
+Iteration time: 11.0
+Weighted AreaUnderPRC: 0.4050427975442321
+Mean absolute error: 0.5517770001438097
+Coverage of cases: 66.66666666666667
+Instances selection time: 2.0
+Test time: 1.0
+Accumulative iteration time: 11.0
+Weighted Recall: 0.45098039215686275
+Weighted FalsePositiveRate: 0.27663828689370484
+Kappa statistic: 0.17647058823529413
+Training time: 9.0
+		
+Iteration: 2
+Labeled set size: 10
+Unlabelled set size: 89
+	
+Mean region size: 57.516339869281055
+Incorrectly Classified Instances: 56.86274509803921
+Correctly Classified Instances: 43.13725490196079
+Weighted Precision: 0.45892605408176346
+Weighted AreaUnderROC: 0.601328689370485
+Root mean squared error: 0.5861023155448588
+Relative absolute error: 116.21997754763053
+Root relative squared error: 124.33107653727225
+Weighted TruePositiveRate: 0.43137254901960786
+Weighted MatthewsCorrelation: 0.169725738146727
+Weighted FMeasure: 0.44280414868650164
+Iteration time: 12.0
+Weighted AreaUnderPRC: 0.4614893786116823
+Mean absolute error: 0.5165332335450241
+Coverage of cases: 62.745098039215684
+Instances selection time: 2.0
+Test time: 1.0
+Accumulative iteration time: 23.0
+Weighted Recall: 0.43137254901960786
+Weighted FalsePositiveRate: 0.2685436016511868
+Kappa statistic: 0.1470588235294118
+Training time: 10.0
+		
+Iteration: 3
+Labeled set size: 11
+Unlabelled set size: 88
+	
+Mean region size: 53.59477124183005
+Incorrectly Classified Instances: 68.62745098039215
+Correctly Classified Instances: 31.372549019607842
+Weighted Precision: 0.3202092601746581
+Weighted AreaUnderROC: 0.46891124871001033
+Root mean squared error: 0.6402500879462288
+Relative absolute error: 128.79596284081515
+Root relative squared error: 135.8175536526186
+Weighted TruePositiveRate: 0.3137254901960784
+Weighted MatthewsCorrelation: -0.03290097700320095
+Weighted FMeasure: 0.3163789732417183
+Iteration time: 12.0
+Weighted AreaUnderPRC: 0.3520298402716063
+Mean absolute error: 0.5724265015147335
+Coverage of cases: 50.98039215686274
+Instances selection time: 2.0
+Test time: 1.0
+Accumulative iteration time: 35.0
+Weighted Recall: 0.3137254901960784
+Weighted FalsePositiveRate: 0.34826496388028894
+Kappa statistic: -0.04020979020979018
+Training time: 10.0
+		
+Iteration: 4
+Labeled set size: 12
+Unlabelled set size: 87
+	
+Mean region size: 60.784313725490215
+Incorrectly Classified Instances: 78.43137254901961
+Correctly Classified Instances: 21.568627450980394
+Weighted Precision: 0.22165032679738564
+Weighted AreaUnderROC: 0.43801599587203305
+Root mean squared error: 0.6187706559855154
+Relative absolute error: 126.46141931723423
+Root relative squared error: 131.26107805398195
+Weighted TruePositiveRate: 0.21568627450980393
+Weighted MatthewsCorrelation: -0.18611409501407175
+Weighted FMeasure: 0.2168172412773296
+Iteration time: 10.0
+Weighted AreaUnderPRC: 0.34516887918420347
+Mean absolute error: 0.5620507525210405
+Coverage of cases: 52.94117647058823
+Instances selection time: 1.0
+Test time: 1.0
+Accumulative iteration time: 45.0
+Weighted Recall: 0.21568627450980393
+Weighted FalsePositiveRate: 0.4015415376676986
+Kappa statistic: -0.18055555555555552
+Training time: 9.0
+		
