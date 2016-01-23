@@ -139,7 +139,14 @@ public class WekaComitteClassifier extends AbstractClassifier {
                 Random random = new Random();
 
                 for (int j = 0; j < consensus.length; j++) {
-                    consensus[j] = random.nextGaussian();
+                    double cenas = random.nextGaussian();
+
+                    if(cenas < 0)
+                        cenas = 0;
+                    else if(cenas > 1)
+                        cenas = 1;
+
+                    consensus[j] += cenas;
                 }
             }
 
