@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: net.sf.jclal.evaluation.method.RunExperimentSingleLabelTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.188 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.682 sec
